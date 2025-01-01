@@ -19,7 +19,7 @@ TARGET_LINUX_KERNEL_VERSION := 4.4
 TARGET_SOC_BASE := exynos8895
 
 include hardware/samsung_slsi-linaro/config/BoardConfigCommon.mk
-include vendor/samsung_slsi/exynos/camera/hal3/exynos8895/Android.mk
+include vendor/samsung_slsi/exynos/camera/hal3/Android.mk
 
 USE_OPENGL_RENDERER := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
